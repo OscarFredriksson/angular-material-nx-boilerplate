@@ -26,14 +26,15 @@ ng generate app app-name
 import { MaterialModule } from 'libs/shared/material.module';
 ```
 
-To add Material API references go to `libs/shared/material.module` and add the module to `imports` and `exports`. `MatCardModule` is imported as a placeholder to start with.
-
 ```Typescript
 imports: [
   ...
   MaterialModule
 ]
 ```
+
+To add Material API references go to `libs/shared/material.module` and add the module to `imports` and `exports`. `MatCardModule` is imported as a placeholder to start with.
+
 
 4. Import bootstrap and material theme in `styles.scss`
 
