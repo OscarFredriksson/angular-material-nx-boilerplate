@@ -20,7 +20,7 @@ npm install
 ng generate app app-name
 ```
 
-3. Import Material Module to `app.module.ts`
+3. Import Material Module in `app.module.ts`
 
 ```Typescript
 import { MaterialModule } from 'libs/shared/material.module';
@@ -42,5 +42,6 @@ To add Material API references go to `libs/shared/material.module` and add the m
 @import '~bootstrap';
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
 ```
+5. (Optional) If you want to use Material Icons add `<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">` to `index.html`
 
-5. Done! Serve your created app using `ng serve app-name`
+6. Done! Serve your created app using `ng serve app-name`
