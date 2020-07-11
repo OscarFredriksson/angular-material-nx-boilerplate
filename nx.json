@@ -27,7 +27,14 @@
     },
     "domoticz-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["domoticz-app"]
+      "implicitDependencies": ["template-app"]
+    },
+    "template-app": {
+      "tags": []
+    },
+    "template-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["template-app"]
     }
   }
 }
